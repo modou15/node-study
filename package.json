@@ -1,0 +1,28 @@
+{
+  "name": "study",
+  "version": "1.0.0",
+  "description": "node.js study",
+  "main": "src/app.js",
+  "bin": {
+    "anydoor": "bin/anydoor"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "handlebars": "^4.0.12",
+    "yargs": "^12.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modou15/node-study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/modou15/node-study/issues"
+  },
+  "homepage": "https://github.com/modou15/node-study#readme"
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{title}}</title>
+    <style>
+        a {
+            display: block;
+        }
+    </style>
+    <link href="https://static.zaozuo.com/20181114192431/static/images/favicon.ico" rel="shortcut icon">
+</head>
+<body>
+    {{#each files}}
+        <a href="{{../dir}}/{{this}}">{{this}}</a>
+    {{/each}}
+</body>
+</html>
